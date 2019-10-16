@@ -9,6 +9,8 @@ Pat Hickey
 Fastly
 
 
+These slides: `https://github.com/pchickey/wasi_http_strawman`
+
 ---
 
 ## WASI Preview
@@ -374,7 +376,6 @@ func main() {
 
 - Do KeyValues need to be available as a stream? Or is all-at-once OK?
 - How does this interact with WASI Sockets? (They're not designed yet).
-- Should the ClientExchange/ServerExchange concept be hung onto Request & Response, e.g. ClientRequest, ServerRequest, ClientResponse, ServerResponse?
 - Structured error reporting
 - This model might not capture every possibility of success/failure yet. Where to improve?
     - Request is forwarding some body, whose stream just errored (connection
