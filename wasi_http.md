@@ -263,7 +263,7 @@ func client_exchange_responses(e: ClientExchange) -> Stream<Response, Error>;
 
 ---
 
-# Wasi HTTP Exchange
+# WASI HTTP Exchange
 
 Client and Server have different sets of metadata that they can access.
 
